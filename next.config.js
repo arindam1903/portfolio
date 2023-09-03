@@ -1,7 +1,7 @@
 const path = require('path')
  
 module.exports = {
-  basePath: '/github-pages',
+  basePath: 'arindamdutta.in',
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
