@@ -1,19 +1,20 @@
 import React from "react";
-import styles from "../../styles/About.module.scss"
-import 'bootstrap/dist/css/bootstrap.css'
 
 const jobExp = [
     { designation: 'Software Development Engineer 1 - Frontend', type: 'Full Time', company: 'Trademo Inc', location: 'Gurugram, India', duration: 'Apr 2021 - Present' },
-    { designation: 'Full Stack Developer - Trainee', type: 'Traning', company: 'Newton School', location: 'Bengaluru, India', duration: 'June 2020 - Dec 2020' },
+    { designation: 'Full Stack Developer - Trainee', type: 'Training', company: 'Newton School', location: 'Bengaluru, India', duration: 'June 2020 - Dec 2020' },
 ]
 
 
 export default function About() {
-    return <div id={styles.about_container}>
-        <div>
+    return <div id='about_container'>
+        <div id='redirect-about'>
             <span className="header-text">About Me</span>
             <p>
-                The Generator App is an online tool that helps you to export ready-made templates ready to work as your future website. It helps you to combine slides, panels and other components and export it as a set of static files: HTML/CSS/JS.
+            I'm an experienced Frontend Developer passionate about creating high-quality products that enhance user
+experience. Skilled in integrating new features, identifying opportunities for improvement, and working
+collaboratively with cross-functional teams. I have mentored junior developers and always seek new challenges to
+learn and grow in my field.
             </p>
         </div>
         <div>
@@ -52,15 +53,15 @@ export default function About() {
 
         </div>
         <div>
-            <span className="header-text mt-2">Education</span>
+            <span className="header-text">Education</span>
             <span className="job-desc d-block">
                 <span className="d-block">
                     <span className="designation">
-                        B.Tech (Mecchanical Engg)</span>
+                        B.Tech (Mechanical Engg)</span>
                     <span className="type">Full Time</span>
                 </span>
                 <span className="d-block">
-                    <span className="company ml-2">
+                    <span className="company">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" viewBox="0 0 16 12" fill="none">
                             <path d="M3.33331 1.5V10.5H7.33331V8.75H8.66665V10.5H12.6666V1.5H3.33331ZM4.66665 2.5H5.99998V3.5H4.66665V2.5ZM7.33331 2.5H8.66665V3.5H7.33331V2.5ZM9.99998 2.5H11.3333V3.5H9.99998V2.5ZM4.66665 4.5H5.99998V5.5H4.66665V4.5ZM7.33331 4.5H8.66665V5.5H7.33331V4.5ZM9.99998 4.5H11.3333V5.5H9.99998V4.5ZM4.66665 6.5H5.99998V7.5H4.66665V6.5ZM7.33331 6.5H8.66665V7.5H7.33331V6.5ZM9.99998 6.5H11.3333V7.5H9.99998V6.5ZM4.66665 8.5H5.99998V9.5H4.66665V8.5ZM9.99998 8.5H11.3333V9.5H9.99998V8.5Z" fill="#A7A7A7" />
                         </svg>

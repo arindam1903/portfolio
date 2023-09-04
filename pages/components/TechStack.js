@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "../../styles/TechStack.module.scss"
 import Image from "next/image";
 const icons = [
     { img: 'https://res.cloudinary.com/deznixscd/image/upload/v1693754767/portfolio/vscode-icons_file-type-html_c3gajd.svg', name: 'HTML 5' },
@@ -16,8 +15,8 @@ const icons = [
 
 
 export default function TechStack() {
-    return <div id={styles.techstack_container}>
-        <div className="header-section">
+    return <div id='techstack_container'>
+        <div id='redirect-tech-stack' className="header-section">
             My Tech Stack
             <p className="mt-3">
                 Technologies I’ve been working with recently

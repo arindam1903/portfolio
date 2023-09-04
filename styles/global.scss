@@ -1,0 +1,446 @@
+#home_container{
+    margin: 0px;
+    padding: 0px 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  /////
+#header_container {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+
+    div {
+        text-align: right;
+    }
+
+    .logo-section {
+        width: 130px;
+        margin-left: 20px;
+        border-left: #666 1px solid;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 16px;
+    }
+
+    .nav-section {
+        width: 615px;
+        display: flex;
+        justify-content: space-between;
+        color: #666;
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+
+        a {
+            text-decoration: none;
+            color: #666;
+            font-family: DM Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 26px;
+        }
+    }
+
+    @media screen and (max-width: 720px) {
+        .nav-section {
+            display: none;
+        }
+
+        .logo-section {
+            width: 30vw;
+            border-left: 0px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .logo-section {
+            width: 50vw;
+        }
+    }
+
+}
+
+
+/////////////
+#intro_container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .intro-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+
+        .desc-section {
+            color: var(--Solid-Heading, #42446E);
+            font-family: Poppins;
+            font-size: 58px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 70px;
+            width: 70%;
+
+            .name {
+                background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-family: Poppins;
+            }
+        }
+
+        .img-section {
+            display: flex;
+            flex-wrap: wrap;
+            width: 240px;
+            position: relative;
+            height: 240px;
+
+            Image {
+                border-radius: 50%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 1270px) {
+        .intro-container {
+            width: 100%;
+
+            .desc-section {
+                font-size: 38px;
+                width: 50%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 780px) {
+        .intro-container {
+            .desc-section {
+                font-size: 32px;
+                width: 55%;
+            }
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .intro-container {
+            .desc-section {
+                font-size: 28px;
+                width: 60%;
+                line-height: 50px;
+            }
+
+            .img-section {
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+    }
+
+    @media screen and (max-width: 480px) {
+        .intro-container {
+            flex-direction: column;
+            min-height: 50vh;
+
+            .desc-section {
+                width: 100%;
+                line-height: 40px;
+                display: flex;
+                padding-left: 20vw;
+                flex-direction: column;
+                height: 40%;
+            }
+
+            .img-section {
+                margin-top: 5%;
+                width: 120px;
+                height: 120px;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+    }
+
+}
+
+/////////////
+#techstack_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    flex-direction: column;
+
+     .header-section {
+        color: #42446E;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+
+        p {
+            text-align: center;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            color: #666;
+        }
+    }
+
+     .icons-section {
+        padding: 5% 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        div {
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            margin-top: 24px;
+
+            span {
+                padding-top: 16px;
+                text-align: center;
+            }
+
+        }
+
+    }
+    @media screen and (max-width: 780px) {
+        .header-section {
+            font-size: 32px;
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .header-section {
+            font-size: 28px;
+            p{
+                font-size: 16px;
+            }
+        }
+        .icons-section {
+            div{
+                width: 50%;
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .header-section {
+            font-size: 24px;
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+///
+#about_container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10vh;
+
+    div {
+        width: 60%;
+
+         .header-text {
+            color: #42446E;
+            font-family: Poppins;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            margin-top: 80px;
+            display: inline-block;
+        }
+
+        p {
+            font-weight: 400;
+            line-height: 26px;
+            color: #666;
+            font-family: Poppins;
+            font-size: 18px;
+            font-style: normal;
+
+        }
+
+         .job-desc {
+            border-bottom: #EBEAED 1px solid;
+            height: 70px;
+            margin-top: 40px;
+
+             .designation {
+                font-size: 20px;
+                font-style: normal;
+                color: #666;
+                font-family: Poppins;
+            }
+
+             .type {
+                background-color: #D7FFE0;
+                font-size: 12px;
+                font-style: normal;
+                color: #018C0F;
+                padding: 4px 12px;
+                font-family: Poppins;
+                border-radius: 16px;
+                float: right;
+            }
+
+             .company {
+                color: var(--light-Content, #A7A7A7);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+            }
+
+             .duration {
+                float: right;
+                color: var(--light-Content, #A7A7A7);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                padding-left: 20px;
+            }
+
+             .location {
+                color: var(--light-Content, #A7A7A7);
+                font-family: Poppins;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                padding-left: 20px;
+            }
+        }
+    }
+    @media screen and (max-width: 1140px) {
+        div{
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 880px) {
+        div{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 720px) {
+        div{
+            .job-desc{
+                height: 100px;
+            .duration{
+                display: block;
+                float: none;
+                padding-left: 0px;
+            }
+        }
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div{
+            .job-desc{
+                height: 150px;
+            .duration{
+                display: block;
+                float: none;
+                padding-left: 0px;
+            }
+            .type{
+                display: block;
+                float: none;
+                width: 80px;
+                margin: 4px 0px;
+            }
+            .location{
+                display: block;
+                padding-left: 0px;
+            }
+            
+        }
+        }
+    }
+    @media screen and (max-width: 500px) {
+        div{
+            .job-desc{
+                height: 180px;
+            }
+        }
+    }
+}
+///
+#footer-container{
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: #EBEAED 1px solid;
+width: 100%;
+font-family: DM Sans;
+}
+/////
+#contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--colors-heading, #1E0E62);
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10vh 0px;
+    line-height: 70px;
+    /* 120.69% */
+    letter-spacing: -1px;
+    width: 100%;
+    margin-top: 80px;
+    .resume-section{
+        button{
+            background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+            background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                border: 1px solid plum;
+                border-radius: 8px;
+                padding: 4px 12px;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+        .resume-section{
+            margin-top: 10vh;
+        }
+    }
+
+}

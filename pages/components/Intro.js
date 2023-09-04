@@ -1,15 +1,14 @@
 import React from "react";
-import styles from "../../styles/Intro.module.scss"
 import Image from "next/image";
 
 
 export default function Intro() {
-    return <main id={styles.intro_container}>
-        <div className="intro-container">
+    return <main id='intro_container'>
+        <div id='redirect-intro' className="intro-container">
             <div className="desc-section">
                 Hi 👋, <br />
                 My name is <br />
-                <sapn className='name'>Arindam Dutta</sapn> <br />
+                <span className='name d-block'>Arindam Dutta</span>
                 I build things for web
             </div>
             <div className="img-section">

@@ -2,5 +2,6 @@ import React from "react";
 
 
 export default function Footer (){
-    return <div className="header3">This is Footer</div>
+    return <footer id='footer-container'> Thanks for visiting 🫶🏻. Have a nice day.</footer>
+       
 }
