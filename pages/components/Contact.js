@@ -9,7 +9,7 @@ export default function Contact() {
         </div>
         <div className="resume-section">Download my Resume
             <br />
-            <button onClick={(e) => { window.open("https://drive.google.com/file/d/1N1V4jYB4CmALEzsqjF3t5BeSOeRu_IgF/view?usp=sharing", "_blank"); }}
+            <button onClick={(e) => { window.open("https://drive.google.com/file/d/1t-uiPvbmoHg9xpy4RBCs6PyM6PdJ7GlR/view?usp=sharing", "_blank"); }}
                 type="button">
                 Resume</button>
         </div>

@@ -24,7 +24,7 @@ export default function Header() {
                     Contact
                 </span>
             </a>
-            <span className="cursor-pointer" onClick={() => { window.open('https://drive.google.com/file/d/1N1V4jYB4CmALEzsqjF3t5BeSOeRu_IgF/view?usp=sharing') }}>
+            <span className="cursor-pointer" onClick={() => { window.open('https://drive.google.com/file/d/1t-uiPvbmoHg9xpy4RBCs6PyM6PdJ7GlR/view?usp=sharing') }}>
                 Resume
             </span>
 
