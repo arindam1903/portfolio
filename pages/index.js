@@ -10,16 +10,17 @@ export default function Home() {
   return (
     <div id='home_container'>
       <Head>
-        <title>Arindam Dutta | Software Engineer</title>
+        <title>Arindam Dutta | Senior Software Engineer</title>
         <meta
           name="description"
-          content="Arindam Dutta, Software Engineer in Gurgaon / Gurugram, Frontend developer at Trademo"
+          content="Arindam Dutta, Senior Software Engineer at Informatica"
           key="desc"
         />
-        <meta property="og:title" content="Arindam Dutta, Software Engineer at Trademo" />
+        <meta property="og:title" content="Arindam Dutta, Senior Software Engineer at Informatica" />
         <meta
           property="og:description"
-          content="Arindam is a Software engineer currently working at Trademo. He is a frontend developer with 2.5 years of experience. He lives in Gurgaon / Gurugram"
+          content="Arindam Dutta is a Senior Software Engineer at Informatica, Bengaluru. Arindam is a frontend developer with 3.5 years of experience. Arindam lives in 
+            Bengaluru (Bangalore), India. Arindam Dutta worked at Trademo as a front-end developer in Gurugram (Gurgaon), India. Arindam was part of the core engineering team at Trademo. He is from Dhanbad, Jharkhand, India."
         />
         <meta
           property="og:image"
