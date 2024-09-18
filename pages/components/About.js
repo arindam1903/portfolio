@@ -1,7 +1,8 @@
 import React from "react";
 
 const jobExp = [
-    { designation: 'Software Development Engineer 1 - Frontend', type: 'Full Time', company: 'Trademo Inc', location: 'Gurugram, India', duration: 'Apr 2021 - Present' },
+    { designation: 'Senior Software Engineer - UI', type: 'Full Time', company: 'Informatica', location: 'Bengaluru, India', duration: 'Sep 2024 - Present' },
+    { designation: 'Software Development Engineer 1 - Frontend', type: 'Full Time', company: 'Trademo Inc', location: 'Gurugram, India', duration: 'Apr 2021 - Aug 2024' },
     { designation: 'Full Stack Developer - Trainee', type: 'Training', company: 'Newton School', location: 'Bengaluru, India', duration: 'June 2020 - Dec 2020' },
 ]
 
