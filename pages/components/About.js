@@ -12,9 +12,9 @@ export default function About() {
         <div id='redirect-about'>
             <span className="header-text">About Me</span>
             <p>
-            I'm an experienced Frontend Developer passionate about creating high-quality products that enhance user
+            Arindam is a Senior Software Engineer with 3.5+ years of experience in frontend development, passionate about creating high-quality products that enhance user
 experience. Skilled in integrating new features, identifying opportunities for improvement, and working
-collaboratively with cross-functional teams. I have mentored junior developers and always seek new challenges to
+collaboratively with cross-functional teams. Arindam has mentored junior developers and always seek new challenges to
 learn and grow in my field.
             </p>
         </div>
