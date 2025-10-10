@@ -24,12 +24,16 @@ export default function TechStack() {
         </div>
         <div className="icons-section">
             {icons.map((item) =>
-                <div>
+                <div key={item.name}>
                     <span>
-                        <Image width={88} height={88} src={item.img} />
+                        <Image
+                            width={88}
+                            height={88}
+                            src={item.img}
+                            alt={`${item.name} icon - Technology I work with`}
+                        />
                     </span>
                     <span>{item.name}</span>
-
                 </div>
             )}
 

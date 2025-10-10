@@ -1,7 +1,8 @@
 const path = require('path')
  
 module.exports = {
-  basePath: 'arindamdutta.in',
+  // basePath should only be used if your site is not served from the root path
+  // basePath: '/subpath', // uncomment and modify if needed
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
