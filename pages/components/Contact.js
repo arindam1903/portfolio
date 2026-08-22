@@ -5,9 +5,6 @@ export default function Contact() {
     return <div id='contact_container'>
 
         <div id='redirect-contact'>You can reach me at
-            <div className="email-link">
-                <a href="mailto:arindam408@gmail.com">arindam408@gmail.com</a>
-            </div>
             <div
                 className="badge-base LI-profile-badge"
                 data-locale="en_US"
