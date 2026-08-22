@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Intro from './components/Intro';
 import TechStack from './components/TechStack';
 import About from './components/About';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.css'
@@ -10,19 +11,19 @@ export default function Home() {
   return (
     <div id='home_container'>
       <Head>
-        <title>Arindam Dutta | Senior Software Engineer</title>
+        <title>Arindam Dutta | Full-Stack Software Engineer · AI Systems</title>
         <meta
           name="description"
-          content="Senior Software Engineer with expertise in scalable applications, system architecture, and modern web technologies. Based in Bengaluru, specializing in high-performance software solutions."
+          content="Full-stack software engineer building AI-driven systems — LLMs, vision APIs, and product platforms. 5+ years of experience. Member of Technical Staff at Salesforce, Bengaluru."
           key="desc"
         />
         <link rel="canonical" href="https://arindamdutta.in" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://arindamdutta.in" />
-        <meta property="og:title" content="Arindam Dutta | Senior Software Engineer" />
+        <meta property="og:title" content="Arindam Dutta | Full-Stack Software Engineer · AI Systems" />
         <meta
           property="og:description"
-          content="Software Engineer crafting scalable applications and architectural solutions. Experienced in modern web technologies, system design, and performance optimization."
+          content="Full-stack software engineer building AI-driven systems — LLMs, vision APIs, and scalable product platforms."
         />
         <meta
           property="og:image"
@@ -46,40 +47,31 @@ export default function Home() {
               "https://www.linkedin.com/in/arindam1903/",
               "https://twitter.com/arindam_1903"
             ],
-            "jobTitle": "Senior Software Engineer",
+            "jobTitle": "Full-Stack Software Engineer",
             "worksFor": {
               "@type": "Organization",
-              "name": "Informatica"
+              "name": "Salesforce"
             },
-            "description": "Software Engineer with expertise in scalable applications, system architecture, and modern development practices. Skilled in building high-performance solutions with focus on code quality and user experience.",
+            "email": "arindam408@gmail.com",
+            "description": "Full-stack software engineer building AI-driven systems with LLMs, vision APIs, and scalable product platforms.",
             "knowsAbout": [
-              "Software Architecture",
-              "Web Development",
-              "System Design",
-              "Application Performance",
-              "React.js",
-              "JavaScript",
-              "Modern Web Technologies"
-            ],
-            "skills": [
-              "Professional Software Development",
-              "Research & Analysis",
-              "Highly Skilled Engineer",
-              "Technical Leadership",
-              "Enterprise Solutions",
-              "Software Architecture Research",
-              "System Analysis",
               "Artificial Intelligence",
-              "AI",
-              "Large Language Models (LLMs)",
+              "Large Language Models",
+              "OpenAI API",
+              "Computer Vision",
+              "Python",
+              "FastAPI",
+              "TypeScript",
+              "Node.js",
+              "PostgreSQL",
+              "System Design",
+              "REST APIs",
+              "Microservices"
             ],
-            "keywords": [
-              "Professional Engineer",
-              "Research-Driven Development",
-              "Highly Skilled Developer",
-              "Enterprise Software",
-              "Technical Innovation"
-            ]
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "MAKAUT, West Bengal"
+            }
           }
         ` }} />
       </Head>
@@ -87,6 +79,7 @@ export default function Home() {
       <Intro />
       <TechStack />
       <About />
+      <Projects />
       <Contact />
       <Footer />
     </div>

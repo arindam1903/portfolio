@@ -19,6 +19,11 @@ export default function Header() {
                         About
                     </span>
                 </a>
+                <a href="#redirect-projects" aria-label="Go to projects section">
+                    <span>
+                        Projects
+                    </span>
+                </a>
                 <a href="#redirect-contact" aria-label="Go to contact section">
                     <span>
                         Contact

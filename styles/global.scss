@@ -35,7 +35,7 @@
         display: flex;
 
         .nav-links {
-            width: 615px;
+            width: 720px;
             display: flex;
             justify-content: space-between;
             color: #666;
@@ -220,6 +220,14 @@
         }
     }
 
+    .practices {
+        color: #666;
+        font-family: Poppins;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 0 24px;
+    }
+
     .icons-section {
         padding: 5% 0px;
         width: 100%;
@@ -313,8 +321,24 @@
 
         .job-desc {
             border-bottom: #EBEAED 1px solid;
-            height: 70px;
+            height: auto;
             margin-top: 40px;
+            padding-bottom: 24px;
+
+            .highlights {
+                margin: 16px 0 0;
+                padding-left: 20px;
+                color: #666;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+
+                li {
+                    margin-bottom: 8px;
+                }
+            }
 
             .designation {
                 font-size: 20px;
@@ -378,8 +402,6 @@
     @media screen and (max-width: 720px) {
         div {
             .job-desc {
-                height: 100px;
-
                 .duration {
                     display: block;
                     float: none;
@@ -392,8 +414,6 @@
     @media screen and (max-width: 500px) {
         div {
             .job-desc {
-                height: 150px;
-
                 .duration {
                     display: block;
                     float: none;
@@ -403,7 +423,7 @@
                 .type {
                     display: block;
                     float: none;
-                    width: 80px;
+                    width: auto;
                     margin: 4px 0px;
                 }
 
@@ -415,12 +435,101 @@
             }
         }
     }
+}
 
-    @media screen and (max-width: 500px) {
-        div {
-            .job-desc {
-                height: 180px;
-            }
+///
+#projects_container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4vh;
+
+    #redirect-projects,
+    .project-card {
+        width: 60%;
+    }
+
+    .header-text {
+        color: #42446E;
+        font-family: Poppins;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 80px;
+        display: inline-block;
+    }
+
+    .section-intro {
+        color: #666;
+        font-family: Poppins;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 16px 0 0;
+    }
+
+    .project-card {
+        border-bottom: #EBEAED 1px solid;
+        margin-top: 32px;
+        padding-bottom: 24px;
+    }
+
+    .project-name {
+        color: #666;
+        font-family: Poppins;
+        font-size: 22px;
+        font-weight: 600;
+        display: block;
+    }
+
+    .project-subtitle {
+        color: #A7A7A7;
+        font-family: Poppins;
+        font-size: 16px;
+        margin: 8px 0 12px;
+    }
+
+    .highlights {
+        margin: 0;
+        padding-left: 20px;
+        color: #666;
+        font-family: Poppins;
+        font-size: 15px;
+        line-height: 24px;
+
+        li {
+            margin-bottom: 8px;
+        }
+    }
+
+    .stack-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 12px;
+    }
+
+    .stack-tag {
+        background-color: #D7FFE0;
+        color: #018C0F;
+        font-family: Poppins;
+        font-size: 12px;
+        padding: 4px 12px;
+        border-radius: 16px;
+    }
+
+    @media screen and (max-width: 1140px) {
+        #redirect-projects,
+        .project-card {
+            width: 80%;
+        }
+    }
+
+    @media screen and (max-width: 880px) {
+        #redirect-projects,
+        .project-card {
+            width: 100%;
         }
     }
 }
@@ -453,6 +562,14 @@
     letter-spacing: -1px;
     width: 100%;
     margin-top: 80px;
+
+    .email-link {
+        a {
+            color: var(--Gradient-Heading, #13B0F5);
+            line-height: 32px;
+            letter-spacing: 0;
+        }
+    }
 
     .resume-section {
         a {
